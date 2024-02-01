@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>PlatePal</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico?" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <a href="./index.html" class="link-container">
+          <img src="favicon.ico" alt="PlatePal Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+          <p>PlatePal</p>
+        </a>
+      </div>
+      <ul class="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./feed.html">Feed</a></li>
+        <li><a href="./matches.html">Matches</a></li>
+        <li><a href="./inventory.html">Inventory</a></li>
+        <li><a class="active" href="./signup.html">Sign Up</a></li>
+      </ul>
+    </div>
+  </nav>  
+  <div class="container-login">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <div class="input-field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="input-field">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="input-field">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="input-field">
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+      </div>
+      <a href="./index.html"><button id="submitBtn" type="submit">Sign Up</button></a>
+      <p style = "font-size: 13px;">Already have an account? <a href="login.html">Log In</a></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
